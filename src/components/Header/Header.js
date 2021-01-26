@@ -39,7 +39,11 @@ const useStyles = createUseStyles({
   },
 
   item: {
-    padding: [0, 15],
+    padding: [0, 40],
+
+    '@media (max-width: 736px)': {
+      padding: [0, 15],
+    },
 
     '@media (max-width: 320px)': {
       padding: [0, 7],

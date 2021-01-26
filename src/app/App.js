@@ -8,10 +8,11 @@ import React from 'react'
 import { createUseStyles } from 'react-jss'
 
 import Header from 'components/Header/Header'
+import Main from 'components/Main/Main'
 
 const useStyles = createUseStyles({
   '@import':
-    'url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap)',
+    'url(https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Source+Sans+Pro:ital@1&display=swap)',
 
   '@global': {
     '*': {
@@ -34,10 +35,6 @@ const useStyles = createUseStyles({
     ul: {
       listStyle: 'none',
     },
-
-    input: {
-      font: 'inherit',
-    },
   },
 })
 
@@ -47,6 +44,8 @@ const App = () => {
   return (
     <div className="app">
       <Header />
+
+      <Main />
     </div>
   )
 }
