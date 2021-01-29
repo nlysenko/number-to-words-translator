@@ -33,51 +33,51 @@ const useStyles = createUseStyles({
 
 const useLangStyles = (lang) => {
   switch (lang) {
-    case 'ru':
-      return createUseStyles({
-        enabled: {
-          backgroundPosition: [[-145, -55]],
-          boxShadow: shadow,
-        },
-
-        disabled: {
-          backgroundPosition: [[-145, -7]],
-        },
-      })
-
     case 'en':
       return createUseStyles({
         enabled: {
-          backgroundPosition: [[-1, -55]],
+          backgroundPosition: [-1, -55],
           boxShadow: shadow,
         },
 
         disabled: {
-          backgroundPosition: [[-1, -7]],
+          backgroundPosition: [-1, -7],
         },
       })
 
     case 'en_us':
       return createUseStyles({
         enabled: {
-          backgroundPosition: [[-73, -55]],
+          backgroundPosition: [-73, -55],
           boxShadow: shadow,
         },
 
         disabled: {
-          backgroundPosition: [[-73, -7]],
+          backgroundPosition: [-73, -7],
+        },
+      })
+
+    case 'ru':
+      return createUseStyles({
+        enabled: {
+          backgroundPosition: [-145, -55],
+          boxShadow: shadow,
+        },
+
+        disabled: {
+          backgroundPosition: [-145, -7],
         },
       })
 
     case 'uk':
       return createUseStyles({
         enabled: {
-          backgroundPosition: [[-217, -55]],
+          backgroundPosition: [-217, -55],
           boxShadow: shadow,
         },
 
         disabled: {
-          backgroundPosition: [[-217, -7]],
+          backgroundPosition: [-217, -7],
         },
       })
 
