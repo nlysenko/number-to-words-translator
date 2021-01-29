@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/number-to-words-translator/static/js/main.f1e0c9f1.chunk.js",
-    "main.js.map": "/number-to-words-translator/static/js/main.f1e0c9f1.chunk.js.map",
-    "runtime-main.js": "/number-to-words-translator/static/js/runtime-main.e1f2e17c.js",
-    "runtime-main.js.map": "/number-to-words-translator/static/js/runtime-main.e1f2e17c.js.map",
-    "static/js/2.a6731bb0.chunk.js": "/number-to-words-translator/static/js/2.a6731bb0.chunk.js",
-    "static/js/2.a6731bb0.chunk.js.map": "/number-to-words-translator/static/js/2.a6731bb0.chunk.js.map",
-    "index.html": "/number-to-words-translator/index.html",
-    "static/js/2.a6731bb0.chunk.js.LICENSE.txt": "/number-to-words-translator/static/js/2.a6731bb0.chunk.js.LICENSE.txt"
+    "main.js": "/numberToWordsTranslator/static/js/main.f1e0c9f1.chunk.js",
+    "main.js.map": "/numberToWordsTranslator/static/js/main.f1e0c9f1.chunk.js.map",
+    "runtime-main.js": "/numberToWordsTranslator/static/js/runtime-main.4d475bf3.js",
+    "runtime-main.js.map": "/numberToWordsTranslator/static/js/runtime-main.4d475bf3.js.map",
+    "static/js/2.a6731bb0.chunk.js": "/numberToWordsTranslator/static/js/2.a6731bb0.chunk.js",
+    "static/js/2.a6731bb0.chunk.js.map": "/numberToWordsTranslator/static/js/2.a6731bb0.chunk.js.map",
+    "index.html": "/numberToWordsTranslator/index.html",
+    "static/js/2.a6731bb0.chunk.js.LICENSE.txt": "/numberToWordsTranslator/static/js/2.a6731bb0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e1f2e17c.js",
+    "static/js/runtime-main.4d475bf3.js",
     "static/js/2.a6731bb0.chunk.js",
     "static/js/main.f1e0c9f1.chunk.js"
   ]
