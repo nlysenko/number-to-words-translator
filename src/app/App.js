@@ -12,7 +12,7 @@ import Main from 'components/Main/Main'
 
 const useStyles = createUseStyles({
   '@import':
-    'url(https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Source+Sans+Pro:ital@1&display=swap)',
+    'url(https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Open+Sans&display=swap)',
 
   '@global': {
     '*': {
@@ -28,7 +28,7 @@ const useStyles = createUseStyles({
     body: {
       color: 'black',
       fontSize: 16,
-      fontFamily: ['Source Sans Pro', 'sans-serif'],
+      fontFamily: ['Open Sans', 'sans-serif'],
       backgroundColor: 'white',
     },
 

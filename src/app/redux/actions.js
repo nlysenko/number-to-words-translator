@@ -4,13 +4,7 @@
  *
  */
 
-import { TOGGLE_RU, TOGGLE_EN, TOGGLE_EN_US, TOGGLE_UK } from './constans'
-
-export const toggleRu = () => {
-  return {
-    type: TOGGLE_RU,
-  }
-}
+import { TOGGLE_EN, TOGGLE_EN_US, TOGGLE_RU, TOGGLE_UK } from './constans'
 
 export const toggleEn = () => {
   return {
@@ -21,6 +15,12 @@ export const toggleEn = () => {
 export const toggleEnUs = () => {
   return {
     type: TOGGLE_EN_US,
+  }
+}
+
+export const toggleRu = () => {
+  return {
+    type: TOGGLE_RU,
   }
 }
 

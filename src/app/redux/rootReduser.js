@@ -4,21 +4,24 @@
  *
  */
 import initialState from './initialState'
-import { TOGGLE_RU, TOGGLE_EN, TOGGLE_EN_US, TOGGLE_UK } from './constans'
+import { TOGGLE_EN, TOGGLE_EN_US, TOGGLE_RU, TOGGLE_UK } from './constans'
 
 const rootReduser = (state = initialState, action) => {
   switch (action.type) {
-    case TOGGLE_RU:
-      return { ...state, lang: { ...state.lang, ru: !state.lang.ru } }
-
     case TOGGLE_EN:
-      return { ...state, lang: { ...state.lang, en: !state.lang.en } }
+      return { ...state, en: { ...state.en, enabled: !state.en.enabled } }
 
     case TOGGLE_EN_US:
-      return { ...state, lang: { ...state.lang, en_us: !state.lang.en_us } }
+      return {
+        ...state,
+        en_us: { ...state.en_us, enabled: !state.en_us.enabled },
+      }
+
+    case TOGGLE_RU:
+      return { ...state, ru: { ...state.ru, enabled: !state.ru.enabled } }
 
     case TOGGLE_UK:
-      return { ...state, lang: { ...state.lang, uk: !state.lang.uk } }
+      return { ...state, uk: { ...state.uk, enabled: !state.uk.enabled } }
 
     default:
       return state
